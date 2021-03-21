@@ -23,7 +23,6 @@ background-color: var(--primary-white-color);
 color: var(--primary-text-color);
 font-family: Roboto; sans-serif;
 letter-spacing: 0.03em;
-width: 1600px;
 }
 
 .list {
@@ -48,10 +47,6 @@ text-decoration: none;
 }
 
 /* Header */
-
-.page-header{
-width: 1600px;
-}
 
 .container-header {
 width: 1200px;
@@ -97,20 +92,14 @@ color: var(--accent-color)
 
 /* Hero */
 
-.hero {
-text-align: center;
+.container-hero {
 background-color: #2F303A;
-
 width: 1600px;
-height: 600px;
 
 }
 
 .hero-title {
-padding-top: 200px;
-padding-bottom: 30px;
-margin: 0;
-
+text-align: center;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -146,6 +135,7 @@ width: 1170px;
 margin-top: 94px;
 margin-left: 215px;
 margin-right: 215px;
+
 outline: 2px solid salmon;
 
 }
@@ -169,7 +159,7 @@ line-height: 1.71;
 
 /* Section */
 
-.conteiner-jobchoice {
+.container-jobchoice {
 width: 1170px;
 height: 386px;
 margin-left: 215px;
@@ -189,7 +179,7 @@ text-align: center;
 color: var(--title-text-color);
 }
 
-.conteiner-team {
+.container-team {
 width: 1600px;
 margin-top: 94px;
 
@@ -227,11 +217,21 @@ line-height: 1.18;
 
 /* Footer-Contact */
 
+.container-footer {
+width: 1600px;
+padding-top: 60px;
+padding-bottom: 60px;
+
+background-color: #2F303A;
+}
+
 .accent-word {
 color: var(--accent-color);
 }
 
 .footer-logo {
+padding-left: 215px;
+padding-top: 20px;
 color: var(--primary-white-color);
 font-family: Raleway; sans-serif;
 font-weight: 700;
@@ -241,28 +241,16 @@ text-decoration: none;
 list-style: none;
 }
 
-.conteiner-footer {
-width: 1600px;
-height: 252px;
-
-background-color: #2F303A;
-}
-
 .address {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color: var(--primary-white-color);
-padding-left: 215px;
 padding-top: 20px;
+padding-left: 215px;
 }
 
-.conteiner-logo {
-padding-left: 215px;
-padding-top: 60px;
- 
-}
 .footer-contacts {
 font-style: normal;    
 font-weight: 400;
@@ -274,50 +262,12 @@ color: rgba(255, 255, 255, 0.6);
 
 /* Portfolio */
 
-.header {
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: 200px;
-margin-right: 200px;
-    
-outline: 2px solid salmon;
-}
-
 .conteiner-portfolio {
 width: 1170px;
 margin-left: 215px;
 margin-right: 215px;
 
-
 outline: 2px solid salmon;
-}
-
-.all {
-min-width: 73px;
-height: 38px;
-    
-}
-
-.web-site {
-min-width: 128px;
-height: 38px;
-    
-}
-
-.application {
-min-width: 145px;
-height: 38px;
-}
-
-.design {
-min-width: 103px;
-height: 38px;
-}
-
-.marketing {
-min-width: 130px;
-height: 38px;
 }
 
 .button {
@@ -349,15 +299,13 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: var(--title-text-color);
 }
+
 .description {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 }
 
-.footer {
-background-color: #2F303A;;
-}
 
 
 
