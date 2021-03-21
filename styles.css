@@ -93,7 +93,6 @@ color: var(--accent-color)
 /* Hero */
 
 .hero {
-width: 1600px;
 text-align: center;
 background-color: #2F303A;
 }
