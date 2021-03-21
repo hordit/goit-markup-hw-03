@@ -92,21 +92,22 @@ color: var(--accent-color)
 
 /* Hero */
 
-.container-hero {
-background-color: #2F303A;
+.hero {
 width: 1600px;
-
+text-align: center;
+background-color: #2F303A;
 }
 
 .hero-title {
-text-align: center;
+margin-top: 0;
+margin-bottom: 30px;
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF
-
 
 }
 
