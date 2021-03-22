@@ -251,6 +251,8 @@ color: var(--primary-white-color);
 /* List-portfolio */
 
 .name-project {
+margin: 0;
+
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -259,6 +261,8 @@ color: var(--title-text-color);
 }
 
 .description {
+margin: 0;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
