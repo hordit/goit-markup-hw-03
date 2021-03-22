@@ -132,6 +132,7 @@ letter-spacing: 0.06em;
 
 .skills-list .title {
 margin:0;
+
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -141,7 +142,7 @@ color: var(--title-text-color);
 
 .skills-list .text {
 margin: 0;
-padding-top: 10px;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;   
@@ -151,7 +152,7 @@ line-height: 1.71;
 
 .section-jobchoice-title {
 margin: 0;
-padding-bottom: 50px;
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -161,8 +162,7 @@ color: var(--title-text-color);
 
 .section-team-title {
 margin: 0;
-padding-top: 94px;
-padding-bottom: 50px;
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -173,8 +173,7 @@ color: var(--title-text-color);
 
 .team-name {
 margin:0;
-padding-top: 30px;
-padding-bottom: 10px;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -183,6 +182,7 @@ color: var(--title-text-color);
 
 .team-profession {
 margin: 0;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
