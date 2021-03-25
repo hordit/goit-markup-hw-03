@@ -93,8 +93,6 @@ color: var(--accent-color)
 /* Hero */
 
 .hero {
-margin-bottom: 94px;
-
 text-align: center;
 background-color: #2F303A;
 }
@@ -141,6 +139,7 @@ color: var(--title-text-color);
 
 .skills-list .text {
 margin-bottom: 10px;
+margin-top: 0;
 
 font-weight: 400;
 font-size: 14px;
@@ -148,9 +147,17 @@ line-height: 1.71;
 }
 
 /* Section */
+ 
+.section {
+padding-top: 94px;
+}
+
+.section-work {
+padding-bottom: 94px;
+}
 
 .section-jobchoice-title {
-margin-top: 94px;
+margin-top: 94px;    
 margin-bottom: 50px;
 
 font-weight: 700;
@@ -161,7 +168,8 @@ color: var(--title-text-color);
 }
 
 .section-team-title {
-margin: 0;
+margin-top: 0;
+margin-bottom: 50px;
 
 font-weight: 700;
 font-size: 36px;
@@ -193,12 +201,18 @@ line-height: 1.18;
 .footer {
 background-color: #2F303A;
 }
+.contact {
+padding-top: 60px;
+padding-bottom: 60px;
+}
 
 .accent-word {
 color: var(--accent-color);
 }
 
 .footer-logo {
+margin-top: 0;
+
 color: var(--primary-white-color);
 font-family: Raleway; sans-serif;
 font-weight: 700;
@@ -209,6 +223,8 @@ list-style: none;
 }
 
 .address {
+margin-top: 20px;
+
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -249,10 +265,19 @@ background-color: var(--accent-color);
 color: var(--primary-white-color);
 }
 
+.button-margin {
+margin-top: 94px;
+}
+
 /* List-portfolio */
+.examples {
+margin-top: 56px;
+margin-bottom: 94px;
+}
 
 .name-project {
-margin: 0;
+margin-top: 20px;
+margin-bottom: 4px;
 
 font-weight: 700;
 font-size: 18px;
@@ -263,6 +288,7 @@ color: var(--title-text-color);
 
 .description {
 margin: 0;
+padding-bottom: 20px;
 
 font-weight: 400;
 font-size: 16px;
