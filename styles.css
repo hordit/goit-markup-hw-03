@@ -19,6 +19,8 @@ box-sizing: inherit;
 /* Body */
 
 body {
+margin: 0;
+
 background-color: var(--primary-white-color);
 color: var(--primary-text-color);
 font-family: Roboto; sans-serif;
@@ -95,6 +97,8 @@ color: var(--accent-color)
 .hero {
 text-align: center;
 background-color: #2F303A;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .hero-title {
@@ -265,7 +269,7 @@ background-color: var(--accent-color);
 color: var(--primary-white-color);
 }
 
-.button-margin {
+.section-portfolio {
 margin-top: 94px;
 }
 
