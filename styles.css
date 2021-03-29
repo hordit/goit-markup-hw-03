@@ -33,13 +33,21 @@ margin: 0;
 padding: 0;
 }
 
-/* Logo */
+.link {
+text-decoration: none;
+}
+
+/* Header *//* Logo */
 
 .accent-word {
 color: var(--accent-color);
 }
 
 .logo {
+display: block;
+padding-top: 24px;
+padding-bottom: 25px;
+
 color: var(--title-text-color);
 font-family: Raleway; sans-serif;
 font-weight: 700;
@@ -48,38 +56,67 @@ line-height: 1.2;
 text-decoration: none;
 }
 
-/* Header */
-
 .container {
 margin-left: auto;
 margin-right: auto;
 padding-right: 15px;
 padding-left: 15px;
-width: 1200px;
+width: 1230px;
 
 outline: 2px solid salmon;
 }
 
+.header-nav {
+display: flex;
+}
+
+.main-nav {
+display: flex;
+align-items: center;
+justify-content: ;
+}
+
 .site-nav a {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color:var(--title-text-color)
+color:var(--title-text-color);
+
 } 
 
+.site-nav {
+display: flex;
+margin-left: 94px;
+}
+
+.site-nav .item + .item {
+margin-left: 50px;
+}
 
 .contact-nav a {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 color: var(--primary-text-color);
 letter-spacing: 0.02em;
-
 }
 
-.link {
-text-decoration: none;
+.contact-nav {
+display: flex;
+margin-left: auto;
+}
+
+.contact-nav .item + .item {
+margin-left: 50px;
 }
 
 .site-nav .link:hover,
@@ -130,6 +167,18 @@ letter-spacing: 0.06em;
 }
 
 /* Skills */
+.skills-list {
+display: flex;
+width: 1170px;
+}
+
+.skills-list .item {
+width: 270px;
+} 
+
+.skills-list .item:not(:last-child) {
+margin-right: 30px;
+}
 
 .skills-list .title {
 margin: 0;
@@ -142,8 +191,9 @@ color: var(--title-text-color);
 }
 
 .skills-list .text {
-margin-bottom: 10px;
-margin-top: 0;
+margin-bottom: 0;
+margin-top: 10px;
+width: 270px;
 
 font-weight: 400;
 font-size: 14px;
