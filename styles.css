@@ -61,7 +61,7 @@ margin-left: auto;
 margin-right: auto;
 padding-right: 15px;
 padding-left: 15px;
-width: 1230px;
+width: 1200px;
 
 outline: 2px solid salmon;
 }
@@ -73,7 +73,6 @@ display: flex;
 .main-nav {
 display: flex;
 align-items: center;
-justify-content: ;
 }
 
 .site-nav a {
@@ -169,7 +168,6 @@ letter-spacing: 0.06em;
 /* Skills */
 .skills-list {
 display: flex;
-width: 1170px;
 }
 
 .skills-list .item {
@@ -219,6 +217,26 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 color: var(--title-text-color);
+}
+
+.ourjob {
+display: flex;
+}
+
+.ourjob .item + .item {
+margin-left: 30px;
+}
+
+.team {
+background-color: #F5F4FA;
+}
+
+.team-list {
+display: flex;
+}
+
+.team-list .item:not(:last-child) {
+margin-right: 30px;
 }
 
 .section-team-title {
@@ -297,6 +315,7 @@ color: rgba(255, 255, 255, 0.6);
 
 
 /* Portfolio */
+
 .button1 {
 display: inline-block;
 padding: 6px 22px;  
@@ -323,12 +342,38 @@ color: var(--primary-white-color);
 margin-top: 94px;
 }
 
+.button-list {
+display: flex;
+justify-content:center;
+}
+
+.button-list .item:not(:last-child) {
+margin-right: 8px;
+}
+
 /* List-portfolio */
+
 .examples {
+display: flex;
+flex-wrap: wrap;
 margin-top: 56px;
 margin-bottom: 94px;
 }
 
+.examples .item {
+width: calc((100%-60)/3);
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+.examples .item:nth-child(3n) {
+margin-right: 0;
+}
+
+.examples .item:nth-last-child(-n + 3) {
+margin-bottom: 0;
+}
+  
 .name-project {
 margin-top: 20px;
 margin-bottom: 4px;
