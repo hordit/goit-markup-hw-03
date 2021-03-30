@@ -39,16 +39,13 @@ text-decoration: none;
 
 /* Header *//* Logo */
 
-.page-header {
-padding-top: 24px;
-}
-
 .accent-word {
 color: var(--accent-color);
 }
 
 .logo {
-display: block;
+display: flex;
+align-items: center;
 
 color: var(--title-text-color);
 font-family: Raleway; sans-serif;
