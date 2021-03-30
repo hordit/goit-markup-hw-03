@@ -39,14 +39,16 @@ text-decoration: none;
 
 /* Header *//* Logo */
 
+.page-header {
+padding-top: 24px;
+}
+
 .accent-word {
 color: var(--accent-color);
 }
 
 .logo {
 display: block;
-padding-top: 24px;
-padding-bottom: 25px;
 
 color: var(--title-text-color);
 font-family: Raleway; sans-serif;
@@ -233,6 +235,7 @@ background-color: #F5F4FA;
 
 .team-list {
 display: flex;
+text-align: center;
 }
 
 .team-list .item:not(:last-child) {
@@ -252,7 +255,8 @@ color: var(--title-text-color);
 
 
 .team-name {
-margin:0;
+margin-top: 30px;
+margin-bottom: 10px;
 
 font-weight: 500;
 font-size: 16px;
@@ -262,6 +266,7 @@ color: var(--title-text-color);
 
 .team-profession {
 margin: 0;
+padding-bottom: 30px;
 
 font-weight: 400;
 font-size: 16px;
