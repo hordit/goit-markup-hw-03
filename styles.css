@@ -209,8 +209,8 @@ padding-bottom: 0;
 }
 
 .section-jobchoice-title {
-margin-top: 94px;    
 margin-bottom: 50px;
+margin-top: 0;
 
 font-weight: 700;
 font-size: 36px;
