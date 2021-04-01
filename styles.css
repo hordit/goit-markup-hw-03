@@ -362,6 +362,10 @@ margin-right: 8px;
 
 /* List-portfolio */
 
+.img-block {
+display: block;
+}
+
 .examples {
 display: flex;
 flex-wrap: wrap;
