@@ -230,6 +230,10 @@ display: flex;
 margin-left: 30px;
 }
 
+.img {
+display: block;
+}
+
 .team {
 background-color: #F5F4FA;
 }
@@ -362,9 +366,7 @@ margin-right: 8px;
 
 /* List-portfolio */
 
-.img-block {
-display: block;
-}
+
 
 .examples {
 display: flex;
