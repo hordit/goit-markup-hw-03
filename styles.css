@@ -153,6 +153,7 @@ color: #FFFFFF
 }
 
 .button {
+display: inline-block;
 color: var(--primary-white-color);
 background-color: var(--accent-color);
 
@@ -230,7 +231,7 @@ display: flex;
 margin-left: 30px;
 }
 
-.img {
+img {
 display: block;
 }
 
