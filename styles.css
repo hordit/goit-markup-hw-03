@@ -246,6 +246,8 @@ border-radius: 0px 0px 4px 4px;
 .team-list {
 display: flex;
 text-align: center;
+
+background-color: var(--primary-white-color);
 }
 
 .team-list .item:not(:last-child) {
